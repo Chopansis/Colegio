@@ -75,3 +75,24 @@ footer {
   width: 10
   %;
 }
+
+.character {
+  margin-bottom: 20px;
+}
+
+.character-info {
+  display: flex;
+  align-items: flex-start; /* Aligns the text with the top of the image */
+}
+
+.character-image {
+  width: 100px; /* Adjust width as needed */
+  height: auto;
+  margin-right: 20px; /* Adds spacing between image and text */
+  border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
+
+.character-description {
+  max-width: 600px; /* Adjusts the width of the text area */
+}
+
